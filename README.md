@@ -38,6 +38,31 @@ response = client.send_views(video_url)
 print(response)
 
 
+EXAMPLE CODE
+```
+from fastfame import FastFameClient
+
+def demo_library_usage():
+    # Replace with your FastFame username - https://fastfame.pro
+    username = "your-username"
+    
+    # Example TikTok video URL
+    video_url = "https://www.tiktok.com/@example/video/1234567890"
+    
+    # Create the FastFame client
+    client = FastFameClient(username=username)
+    
+    # Send views (mocked response for demonstration)
+    try:
+        response = client.send_views(video_url)
+        print("Library Usage Response:")
+        print(response)
+    except Exception as e:
+        print("Error sending views:", e)
+demo_library_usage()
+```
+
+
 Parameters:
 
 username (str): Your FastFame account username (required)
@@ -115,3 +140,4 @@ For questions, bugs, or premium access:
 https://fastfame.pro
 
 Email: support@fastfame.pro
+
