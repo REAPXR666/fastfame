@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fastfame-client"
+name = "fastfame"
 version = "1.0.0"
 description = "Official FastFame API client for TikTok views"
 readme = "README.md"
@@ -16,3 +16,4 @@ dependencies = ["requests"]
 
 [project.urls]
 Homepage = "https://fastfame.pro"
+
