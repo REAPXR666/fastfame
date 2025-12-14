@@ -7,7 +7,7 @@
 
 import requests
 
-API_URL = "https://fastfame.pro/api/v1/tiktok/views"
+API_URL = "https://d0828c46-d3ae-45a9-8d86-2efa2c9a6e66-00-195g1wx50nwts.kirk.replit.dev/api/v1/tiktok/views"
 
 
 class FastFameClient:
@@ -39,3 +39,4 @@ class FastFameClient:
             return response.json()
         except ValueError:
             return {"raw_response": response.text}
+
