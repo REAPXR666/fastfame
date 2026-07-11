@@ -11,7 +11,7 @@ Installation: pip install fastfame
 Author: REAPXR
 
 Official Website: https://fastfame.pro
-
+(WEBSITE OWNED AND MADE BY MYSELF)
 Note: This package is intended only for premium FastFame users. Unauthorized use is prohibited.
 
 Installation
